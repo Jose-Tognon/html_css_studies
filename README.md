@@ -4,7 +4,7 @@ Repositório criado para armazenar exercícios, desafios e projetos desenvolvido
 
 ## Projetos
 
-- <a href="https://jose-tognon.github.io/html_css_studies/Desafios/modulo-2/desafio-10/" target="_blank">[Projeto Android]</a>
+- <a href="https://jose-tognon.github.io/html_css_studies/Desafios/modulo-2/desafio-10/"  target="_blank">[Projeto Android]</a>
 
 
 ## Tecnologias
