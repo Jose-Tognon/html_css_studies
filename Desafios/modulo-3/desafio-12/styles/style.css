@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    text-align: justify;
+}
+
+header{
+    background-color: black;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+header > nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+header h1{
+    font-family: 'Passion One', sans-serif;
+    font-size: 80px;
+
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+
+}
+
+main p {
+    width: 300px;
+    font: 30px 'Sriracha',sans-serif;
+    padding: 100px 0px 0px 50px;
+}
+
+main .imagem{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.imagem > p{
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.151);
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    transform: translate(-0%,-50%);
+}
+
+main #fundo_flor{
+    background-image: url(../imagens/background001.jpg);
+}
+main #fundo_livro{
+    background-image: url(../imagens/background002.jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;    
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
